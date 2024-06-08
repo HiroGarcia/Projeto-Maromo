@@ -1,0 +1,66 @@
+Guia de Usuário
+Introdução
+Esta aplicação permite que você gerencie seus contatos de maneira simples e eficiente. 
+Com este guia, você aprenderá a utilizar todas as funcionalidades disponíveis para adicionar, remover, buscar e listar contatos.
+
+
+
+Funcionalidades
+•	Adicionar Contato
+•	Descrição: Adiciona um novo contato à agenda.
+  •	Passos:
+    1.	No menu principal, selecione a opção 1. Adicionar Contato.
+    2.	O sistema solicitará que você forneça o nome do contato.
+    3.	Em seguida, forneça o telefone do contato. Apenas números e espaços são permitidos.
+    4.	Opcionalmente, forneça o e-mail do contato.
+    5.	O sistema verificará se o nome e o telefone foram fornecidos. Se algum dos campos obrigatórios estiver vazio, uma mensagem de erro será exibida.
+    6.	Se todos os dados estiverem corretos, o contato será salvo na agenda e uma mensagem de sucesso será exibida.
+
+
+------------------------------------------------------------------------------------------------
+
+
+•	Remover Contato
+•	Descrição: Remove um contato existente utilizando o ID do contato.
+  •	Passos:
+    1.	No menu principal, selecione a opção 2. Remover Contato.
+    2.	O sistema solicitará que você forneça o ID do contato a ser removido.
+    3.	Forneça o ID do contato.
+    4.	O sistema verificará se o ID fornecido existe na estrutura de dados. Se o ID não for encontrado, uma mensagem de erro será exibida.
+    5.	Se o ID for válido, o contato será removido.
+
+
+------------------------------------------------------------------------------------------------
+
+
+•	Buscar Contato
+•	Descrição: Busca contatos por nome, telefone ou e-mail.
+  •	Passos:
+    1.	No menu principal, selecione a opção 3. Buscar Contato.
+    2.	O sistema solicitará que você forneça um critério de busca (nome, telefone ou e-mail).
+    3.	Forneça o critério de busca desejado.
+    4.	O sistema realizará a busca ignorando maiúsculas e minúsculas e exibirá os contatos correspondentes.
+    5.	Se nenhum contato for encontrado, uma mensagem informativa será exibida.
+
+
+------------------------------------------------------------------------------------------------
+
+
+•	Listar Contatos
+•	Descrição: Lista todos os contatos armazenados na agenda.
+  •	Passos:
+    1.	No menu principal, selecione a opção 4. Listar Contatos.
+    2.	O sistema solicitará que você escolha um critério de ordenação (nome ou ID).
+    3.	Forneça o critério de ordenação desejado.
+    4.	O sistema exibirá a lista de contatos ordenada conforme o critério escolhido. Cada contato será exibido com uma linha em branco entre eles para melhor visualização.
+    5.	Se não houver contatos armazenados, uma mensagem informativa será exibida.
+
+
+------------------------------------------------------------------------------------------------
+
+
+•	Sair
+•	Descrição: Encerra a aplicação.
+  •	Passos:
+    1.	No menu principal, selecione a opção 5. Sair.
+    2.	O sistema exibirá uma mensagem de despedida e encerrará a aplicação.
